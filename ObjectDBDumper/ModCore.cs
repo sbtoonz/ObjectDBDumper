@@ -64,7 +64,7 @@ namespace ObjectDBDumper
                     dropInfo.m_sharedName = Localization.instance.Localize(drop.m_itemData.m_shared.m_name);
                     dropInfo.DropInfo.m_sharedName = Localization.instance.Localize(drop.m_itemData.m_shared.m_name);
                     dropInfo.DropInfo.m_DLC = drop.m_itemData.m_shared.m_dlc;
-                    dropInfo.DropInfo.m_description = drop.m_itemData.m_shared.m_description;
+                    dropInfo.DropInfo.m_description = Localization.instance.Localize(drop.m_itemData.m_shared.m_description);
                     dropInfo.DropInfo.m_maxStack = drop.m_itemData.m_shared.m_maxStackSize;
                     dropInfo.DropInfo.m_maxQuality = drop.m_itemData.m_shared.m_maxQuality;
                     dropInfo.DropInfo.m_weight = drop.m_itemData.m_shared.m_weight;
